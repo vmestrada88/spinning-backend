@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: spinning-backend
+    env: node
+    branch: main
+    plan: free
+    buildCommand: "npm ci && npm run build"
+    startCommand: "npm start"
+    envVars:
+      - key: DATABASE_URL
+        sync: false
