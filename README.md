@@ -1,19 +1,14 @@
-# spinning-backend
+# Spinning Backend
 
-TypeScript + Express backend with Sequelize migrations.
+REST API for a spinning/fitness class management platform.
 
-Local dev:
+## Tech Stack
 
-```bash
-cd spinning-backend
-npm ci
-npm run dev
-```
+**Node.js** · **Express** · **PostgreSQL** · **TypeScript**
 
-Run migrations locally:
+## Features
 
-```bash
-npx sequelize-cli db:migrate
-```
-
-Deploy on Render: connect this folder as a repository or use `render.yaml` sample in this folder.
+- Class scheduling and capacity management
+- Instructor assignment and availability
+- Member registration and attendance tracking
+- RESTful API endpoints
